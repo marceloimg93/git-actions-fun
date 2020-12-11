@@ -4,7 +4,7 @@
   "description": "Playing with GitHub Actions",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/marceloimg93/git-actions-fun/issues"
   },
-  "homepage": "https://github.com/marceloimg93/git-actions-fun#readme"
+  "homepage": "https://github.com/marceloimg93/git-actions-fun#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
 }
