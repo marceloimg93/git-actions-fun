@@ -1,0 +1,20 @@
+{
+  "name": "git-actions-fun",
+  "version": "1.0.0",
+  "description": "Playing with GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marceloimg93/git-actions-fun.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marceloimg93/git-actions-fun/issues"
+  },
+  "homepage": "https://github.com/marceloimg93/git-actions-fun#readme"
+}
