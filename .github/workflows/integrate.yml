@@ -1,0 +1,17 @@
+name: Node CI
+
+on:
+
+  pull_request:
+    branches: [ master ]
+
+
+jobs: 
+  test_pull_request:
+    run_on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2 # this is a popular library used to push code to inside container
+      - uses: actions/setup-node@v1
+        with: 
+          node-version: 12
+      - run: npm ci
